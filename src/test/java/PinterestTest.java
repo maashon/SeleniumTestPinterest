@@ -64,9 +64,6 @@ public void FillFormTest(){
     FillForm fillForm=dashboardPage.goToFill();
     fillForm.fillSettingForm("pourzargham","I am a selenium tester","www.google.com","Hungary");
 
-
-
-
 }   
 
     
