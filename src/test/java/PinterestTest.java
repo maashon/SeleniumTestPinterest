@@ -62,7 +62,7 @@ public void FillFormTest(){
     LoginPage loginPage = mainPage.openLogin();
     DashboardPage dashboardPage = loginPage.login("velow29219@iludir.com","Parsa@1234");
     FillForm fillForm=dashboardPage.goToFill();
-    fillForm.fillSettingForm("pourzargham","I am a selenium tester","www.google.com","Hungary");
+    fillForm.fillSettingForm("Pourzargham","I am a selenium tester","www.google.com","Hungary");
 
 }   
 
